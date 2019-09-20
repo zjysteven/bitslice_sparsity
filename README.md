@@ -1,5 +1,5 @@
 # Bitslice_Sparsity
-This repo holds the codes for our preliminary study https://arxiv.org/abs/1909.08496v1 which aims at improving bit-slice sparsity for efficient ReRAM deployment of DNN.
+This repo holds the codes for our preliminary study https://arxiv.org/abs/1909.08496v1 which aims at improving bit-slice sparsity for efficient ReRAM deployment of DNN. Codes are tested with Pytorch 1.2.0 and Python 3.7.
 
 The codes for MNIST and CIFAR-10 are within `mnist/` and `cifar/` respectively. The training routine mainly consists of three parts: pre-training, pruning, and fine-tuning.
 
