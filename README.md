@@ -11,7 +11,7 @@ Then, load and prune the pre-trained model, and fine-tune with either normal l1 
 ```
 python3 finetune_l1.py or python3 finetune_bitslice.py
 ```
-There are some arguments within the codes which we have set up default values, but you may want to check it yourself and make some adjustments.
+There are some arguments within the codes for which we have set up default values, but you may want to check it yourself and make some adjustments.
 
 # Acknowledgement
 The codes are adapted from [nics_fix_pytorch](https://github.com/walkerning/nics_fix_pytorch).
