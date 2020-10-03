@@ -5,11 +5,11 @@ The codes for MNIST and CIFAR-10 are within `mnist/` and `cifar/` respectively. 
 
 First, pre-train a fixed-point model:
 ```
-python3 pretrain.py
+python pretrain.py
 ```
 Then, load and prune the pre-trained model, and fine-tune with either normal l1 regularization, or bit-slice l1 regularization.
 ```
-python3 finetune_l1.py or python3 finetune_bitslice.py
+python finetune_l1.py or python finetune_bitslice.py
 ```
 There are some arguments within the codes for which we have set up default values, but you may want to check it yourself and make some adjustments.
 
